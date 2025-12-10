@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 const Dashboard = () => {
     const navigate = useNavigate();
     const [searchQuery, setSearchQuery] = useState('');
-    const [data, setData] = useState(null);
+    const [, setData] = useState(null);
     const [formsData, setFormsData] = useState(null);
     const [templateData, setTemplateData] = useState(null);
     const [sectionData, setSectionData] = useState(null);
